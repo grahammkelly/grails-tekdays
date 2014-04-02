@@ -1,0 +1,43 @@
+# Output files from the compile process
+*.class
+*.pyc
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#Standard Eclipse files
+.project
+.classpath
+.settings
+.metadata
+Servers
+
+#Standard IntelliJ files
+.idea
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
+
+#Standard Maven/Gradle output
+target
+build
+generated
+.gradle
+
+#Testlink generated files
+test-output
+
+#CTags generated files
+tags
+TAGS
+
+#Normally ignored files
+*.log
+logs
+ignore-*
+*.ignore
+*.tmp
+*~
